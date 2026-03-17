@@ -1,39 +1,40 @@
-# Chambres d'Hôtes de la Templerie-Moulin — Site MkDocs
+# Chambres d'Hôtes de  — Site MkDocs
 
-Site web des Chambres d'Hôtes de la Templerie-Moulin, construit avec [MkDocs](https://www.mkdocs.org/) et le thème [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
+Site web des Chambres d'Hôtes chbh, construit avec [MkDocs](https://www.mkdocs.org/) et le thème [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
 
 ---
 
 ## 📁 Structure du projet
 
 ```
-templerie-mkdocs/
+chbh-mkdocs/
 ├── mkdocs.yml                    ← Configuration principale
 ├── docs/
-│   ├── index.md                  ← Page d'accueil
-│   ├── localisation.md           ← Localisation & trajets
-│   ├── tarifs.md                 ← Tarifs
-│   ├── reservations.md           ← Réservations
 │   ├── assets/
 │   │   ├── images/               ← Logo et images locales (à ajouter)
 │   │   └── stylesheets/
 │   │       └── extra.css         ← CSS personnalisé
-│   ├── a-voir-a-faire/
-│   │   ├── alentours.md          ← Activités aux alentours
-│   │   ├── activites.md          ← Activités à la Templerie-Moulin
-│   │   ├── actualites.md         ← Actualités
-│   │   └── faq.md                ← Réponses à vos questions
+│   │   
 │   ├── chambres/
 │   │   ├── index.md              ← Vue d'ensemble des chambres
-│   │   ├── bateaux.md            ← Chambre aux Bateaux
-│   │   ├── oiseaux.md            ← Chambre aux Oiseaux
-│   │   └── multicolore.md        ← Chambre Multicolore
-│   └── gourmandise/
+│   │   ├── chambre-1.md            ← Chambre 1
+│   │   ├── chambre-2.md            ← Chambre 2
+│   │  
+│   └── tbh/
 │       ├── petits-dejeuners.md   ← Petits déjeuners
-│       ├── tables-dhotes.md      ← Tables d'hôtes
-│       ├── paniers.md            ← Paniers pique-nique & goûter
+│       ├── tables-dhotes.md      ← Tables d'hôte
 │       ├── restaurants.md        ← Restaurants environnants
 │       └── productions-locales.md← Productions locales
+│   ├── apropos.md              ←
+│   ├── contact.md              ←
+│   ├── infos-pratiques.md              ←
+│   ├── maison.md              ←
+│   ├── jardin.md              ←
+│   ├── alentours.md              ← Activités aux alentours
+│   ├── index.md                  ← Page d'accueil
+│   ├── localisation.md           ← Localisation & trajets
+│   ├── tarifs.md                 ← Tarifs
+│   ├── reservations.md           ← Réservations       
 └── README.md                     ← Ce fichier
 ```
 
@@ -109,7 +110,7 @@ Texte normal en paragraphe.
 
 ## 🖼 Ajouter des images
 
-Les images du site actuel sont chargées directement depuis `latempleriemoulin.fr`.
+
 
 Pour utiliser des images locales (recommandé) :
 
@@ -172,8 +173,8 @@ Les réglages importants dans `mkdocs.yml` :
 
 ## 📞 Contact
 
-**Chambres d'Hôtes de la Templerie-Moulin**  
-95-97 La Templerie-Moulin — 85130 Bazoges en Paillers  
-Tél : 02 51 07 41 56  
-Email : contact@latempleriemoulin.fr
+****  
+  
+Tél : 
+Email :
 # chbh.fr
