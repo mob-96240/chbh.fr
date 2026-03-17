@@ -1,0 +1,88 @@
+site_name: Chambres d'Hôtes de 
+site_url: https://chbh.fr
+site_description: Chambres d'hôtes aux Herbiers, à 10 ? km du Puy du Fou.
+site_author: Chambres d'Hôtes de 
+
+theme:
+  name: material
+  language: fr
+  logo: assets/images/logo.png
+  favicon: assets/images/logo.png
+  palette:
+    - scheme: default
+      primary: #f2950a
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Mode sombre
+    - scheme: slate
+      primary: teal
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Mode clair
+  font:
+    text: Lato
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+  icon:
+    repo: fontawesome/brands/github
+
+extra:
+  social:
+    - icon: fontawesome/solid/envelope
+      link: mailto:a.com
+      name: Nous contacter par email
+    - icon: fontawesome/solid/phone
+      link: tel:000000000000000
+      name: 000000000000000
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+plugins:
+  - search:
+      lang: fr
+
+nav:
+  - Accueil: index.md
+  - Aux alentours: alentours.md
+  - Chambres:
+    - Les chambres: chambres/index.md
+    - Chambre 1: chambres/chambre-1.md
+    - Chambre 2: chambres/chambre-2.md
+  - tbh:
+    - Petits déjeuners: tbh/petits-dejeuners.md
+    - Tables d'hôtes: tbh/tables-dhotes.md
+    - Restaurants environnants: tbh/restaurants.md
+    - Productions locales: tbh/productions-locales.md
+  - Localisation: localisation.md
+  - Tarifs: tarifs.md
+  - Réservations: reservations.md
+  - À propos: apropos.md
+  - Contact: contact.md
+  - Jardin: jardin.md
+  - Maison: maison.md
+  - Infos Pratiques: infos-pratiques.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      title: Sur cette page
