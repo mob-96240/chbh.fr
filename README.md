@@ -176,3 +176,4 @@ Les réglages importants dans `mkdocs.yml` :
 95-97 La Templerie-Moulin — 85130 Bazoges en Paillers  
 Tél : 02 51 07 41 56  
 Email : contact@latempleriemoulin.fr
+# chbh.fr
